@@ -5,6 +5,9 @@ Zachary Katz
 zachary_katz@mines.edu
 August 2024
 
+May 2025 - Fixed bug with PyTMD 2.2.4 where OTIS.io.interpolate_constants
+does not take the projection as an argument anymore
+
 Functions
 ---------
 tidal_elevation
@@ -82,6 +85,7 @@ class Tide:
         )
 
         # Setup model
+
         model = pyTMD.io.model(self.model_loc, format="netcdf").elevation(self.model)
         constituents = pyTMD.io.OTIS.read_constants(
             model.grid_file,
@@ -97,7 +101,7 @@ class Tide:
             np.atleast_1d(lons),
             np.atleast_1d(lats),
             constituents,
-            model.projection,
+            # model.projection,
             type=model.type,
             method="spline",
             extrapolate=True,
