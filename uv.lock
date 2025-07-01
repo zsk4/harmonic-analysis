@@ -811,6 +811,7 @@ dependencies = [
     { name = "numpy" },
     { name = "pandas" },
     { name = "pre-commit" },
+    { name = "pykonal" },
     { name = "pyproj" },
     { name = "pytmd" },
     { name = "ruff" },
@@ -833,6 +834,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.2.6" },
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "pre-commit", specifier = ">=4.2.0" },
+    { name = "pykonal", specifier = ">=0.4.1" },
     { name = "pyproj", specifier = ">=3.7.1" },
     { name = "pytmd", specifier = "==2.2.4" },
     { name = "ruff", specifier = ">=0.11.8" },
@@ -1870,6 +1872,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/7c/2d/c3338d48ea6cc0feb
 wheels = [
     { url = "https://files.pythonhosted.org/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl", hash = "sha256:9ea1544ad55cecf4b8242fab6dd35a93bbce657034b0611ee383099054ab6d8c", size = 1225293, upload-time = "2025-01-06T17:26:25.553Z" },
 ]
+
+[[package]]
+name = "pykonal"
+version = "0.4.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a1/6d/8623ac983eaf192bf5c0acd2d908d6376617922b8bf7b34500d76448cb6a/pykonal-0.4.1.tar.gz", hash = "sha256:ddf7709fd8d25ca869cb449e541a3829c577b87a18c6df2c2c2c33abbf0d8dc9", size = 10566210, upload-time = "2024-01-22T15:23:05.068Z" }
 
 [[package]]
 name = "pyparsing"
