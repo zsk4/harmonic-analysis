@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 
 dependencies = [
     "astropy>=7.1.0",
+    "cartopy>=0.24.1",
     "dataframe-image>=0.2.7",
     "earthaccess>=0.14.0",
     "h5py>=3.13.0",
@@ -18,10 +19,12 @@ dependencies = [
     "pre-commit>=4.2.0",
     "pykonal>=0.4.1",
     "pyproj>=3.7.1",
+    "pyshp>=2.3.1",
     "pytmd==2.2.4",
     "ruff>=0.11.8",
     "scipy>=1.15.3",
     "seaborn>=0.13.2",
+    "shapely>=2.1.1",
     "timescale>=0.0.8",
     "utide>=0.3.1",
     "xarray>=2025.4.0",
