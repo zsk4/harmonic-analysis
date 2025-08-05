@@ -141,7 +141,7 @@ class Tide:
             ),
         )
 
-        return tides
+        return tides, amp, ph
 
     @staticmethod
     def tidal_elevation_map(
