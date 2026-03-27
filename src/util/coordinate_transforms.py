@@ -62,3 +62,29 @@ def xy2ll(x: list[float], y: list[float]) -> tuple[list[float], list[float]]:
     xy_to_ll = Transformer.from_crs(crs_xy, crs_ll, always_xy=True)
     lon, lat = xy_to_ll.transform(x, y)
     return lon, lat
+
+
+def utm2ps71(
+    utmx: list[float], utmy: list[float], crs: int
+) -> tuple[list[float], list[float]]:
+    """
+    Transform coordinates from input UTM coordinates (utmx, utmy)
+    to output Antarctic Polar Stereographic coordinates (x, y)
+    Can also take lists of floats!
+
+    Parameters
+    utmx - UTM x coordinate [float]
+    utmy - UTM y coordinate [float]
+    crs - EPSG code of UTM projection [int]
+
+    Returns
+    x - Antarctic Polar Stereographic (EPSG:3031) x [float]
+    y - Antarctic Polar Stereographic (EPSG:3031) y [float]
+
+    """
+
+    crs_utm = CRS(f"EPSG:{crs}")
+    crs_xy = CRS("EPSG:3031")
+    ll_to_xy = Transformer.from_crs(crs_utm, crs_xy, always_xy=True)
+    x, y = ll_to_xy.transform(utmx, utmy)
+    return x, y
