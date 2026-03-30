@@ -1,0 +1,25 @@
+WARNING:rasterio._env:CPLE_AppDefined in The definition of geographic CRS EPSG:4326 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+Traceback (most recent call last):
+  File "/wendianHome/home/m10921061/harmonic-analysis/notebooks/SWOT_HA_Wendian.py", line 509, in <module>
+    wse = ds_out[to_plot][:, :, i]
+          ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/wendianHome/home/m10921061/harmonic-analysis/.venv/lib/python3.12/site-packages/xarray/core/dataarray.py", line 888, in __getitem__
+    return self.isel(indexers=self._item_key_to_dict(key))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/wendianHome/home/m10921061/harmonic-analysis/.venv/lib/python3.12/site-packages/xarray/core/dataarray.py", line 1582, in isel
+    variable = self._variable.isel(indexers, missing_dims=missing_dims)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/wendianHome/home/m10921061/harmonic-analysis/.venv/lib/python3.12/site-packages/xarray/core/variable.py", line 1130, in isel
+    return self[key]
+           ~~~~^^^^^
+  File "/wendianHome/home/m10921061/harmonic-analysis/.venv/lib/python3.12/site-packages/xarray/core/variable.py", line 820, in __getitem__
+    data = indexing.apply_indexer(indexable, indexer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/wendianHome/home/m10921061/harmonic-analysis/.venv/lib/python3.12/site-packages/xarray/core/indexing.py", line 1186, in apply_indexer
+    return indexable[indexer]
+           ~~~~~~~~~^^^^^^^^^
+  File "/wendianHome/home/m10921061/harmonic-analysis/.venv/lib/python3.12/site-packages/xarray/core/indexing.py", line 1716, in __getitem__
+    return array[key]
+           ~~~~~^^^^^
+IndexError: index 10 is out of bounds for axis 2 with size 10
+srun: error: c041: task 0: Exited with exit code 1
