@@ -1,6 +1,6 @@
 Running on host: c041
 Working directory: /wendianHome/home/m10921061/harmonic-analysis/notebooks
-Running Slurm Job ID: 60855436
+Running Slurm Job ID: 60855437
 Found 224 rasters
 Keeping 162 rasters
 /home/m10921061/scratch/data/HA/SWOT/SWOT_271/SWOT_L2_HR_Raster_100m_UTM42C_N_x_x_x_032_271_011F_20250507T162530_20250507T162538_PID0_04.nc
@@ -493,7 +493,7 @@ Keeping 162 rasters
 /home/m10921061/scratch/data/HA/SWOT/SWOT_L2_HR_Raster_100m_UTM43D_N_x_x_x_047_299_016F_20260317T154342_20260317T154342_PID0_01_adv.nc
 Processing SWOT_L2_HR_Raster_100m_UTM42C_N_x_x_x_032_271_011F_20250507T162530_20250507T162538_PID0_04_adv.nc (1/161)
 Processing SWOT_L2_HR_Raster_100m_UTM42D_N_x_x_x_032_271_012F_20250507T162536_20250507T162558_PID0_04_adv.nc (2/161)
-Processing SWOT_L2_HR_Raster_100m_UTM42D_N_x_x_x_032_271_013F_20250507T162557_20250507T162618_PID0_04_adv.nc (3/161)
+Processing SWOT_L2_HR_Raster_100m_UTM42D_N_x_x_x_032_299_013F_20250508T162628_20250508T162649_PID0_02_adv.nc (3/161)
 Processing SWOT_L2_HR_Raster_100m_UTM42D_N_x_x_x_032_299_014F_20250508T162648_20250508T162709_PID0_02_adv.nc (4/161)
 Processing SWOT_L2_HR_Raster_100m_UTM43D_N_x_x_x_032_271_014F_20250507T162617_20250507T162638_PID0_04_adv.nc (5/161)
 Processing SWOT_L2_HR_Raster_100m_UTM43D_N_x_x_x_032_299_015F_20250508T162708_20250508T162728_PID0_02_adv.nc (6/161)
@@ -642,74 +642,3 @@ Processing SWOT_L2_HR_Raster_100m_UTM42D_N_x_x_x_046_327_014F_20260225T185837_20
 Processing SWOT_L2_HR_Raster_100m_UTM43D_N_x_x_x_046_299_015F_20260224T185815_20260224T185836_PID0_01_adv.nc (149/161)
 Processing SWOT_L2_HR_Raster_100m_UTM42D_N_x_x_x_046_327_015F_20260225T185847_20260225T185908_PID0_01_adv.nc (150/161)
 Processing SWOT_L2_HR_Raster_100m_UTM43D_N_x_x_x_046_299_016F_20260224T185835_20260224T185836_PID0_01_adv.nc (151/161)
-Processing SWOT_L2_HR_Raster_100m_UTM43D_N_x_x_x_046_327_016F_20260225T185907_20260225T185913_PID0_01_adv.nc (152/161)
-Processing SWOT_L2_HR_Raster_100m_UTM42C_N_x_x_x_047_271_011F_20260316T154144_20260316T154151_PID0_01_adv.nc (153/161)
-Processing SWOT_L2_HR_Raster_100m_UTM42D_N_x_x_x_047_271_012F_20260316T154150_20260316T154212_PID0_01_adv.nc (154/161)
-Processing SWOT_L2_HR_Raster_100m_UTM42D_N_x_x_x_047_299_013F_20260317T154242_20260317T154303_PID0_01_adv.nc (155/161)
-Processing SWOT_L2_HR_Raster_100m_UTM42D_N_x_x_x_047_271_013F_20260316T154210_20260316T154232_PID0_01_adv.nc (156/161)
-Processing SWOT_L2_HR_Raster_100m_UTM42D_N_x_x_x_047_299_014F_20260317T154302_20260317T154323_PID0_01_adv.nc (157/161)
-Processing SWOT_L2_HR_Raster_100m_UTM43D_N_x_x_x_047_271_014F_20260316T154231_20260316T154252_PID0_01_adv.nc (158/161)
-Processing SWOT_L2_HR_Raster_100m_UTM43D_N_x_x_x_047_271_015F_20260316T154251_20260316T154257_PID0_01_adv.nc (159/161)
-Processing SWOT_L2_HR_Raster_100m_UTM43D_N_x_x_x_047_299_015F_20260317T154322_20260317T154342_PID0_01_adv.nc (160/161)
-Processing SWOT_L2_HR_Raster_100m_UTM43D_N_x_x_x_047_299_016F_20260317T154342_20260317T154342_PID0_01_adv.nc (161/161)
-(1802, 1802) (1802, 1802) (1802, 1802)
-(1802, 1802) (1802, 1802) (1802, 1802)
-(1802, 1802) (1802, 1802) (1802, 1802)
-(1802, 1802) (1802, 1802) (1802, 1802)
-(1802, 1802) (1802, 1802) (1802, 1802)
-(1802, 1802) (1802, 1802) (1802, 1802)
-(1802, 1802) (1802, 1802) (1802, 1802)
-(1802, 1802) (1802, 1802) (1802, 1802)
-(1802, 1802) (1802, 1802) (1802, 1802)
-(1802, 1802) (1802, 1802) (1802, 1802)
-(1802, 1802) (1802, 1802) (1802, 1802)
-(1802, 1802) (1802, 1802) (1802, 1802)
-(1802, 1802) (1802, 1802) (1802, 1802)
-[ True False False False False False False False] [ True False False False False False False False]
-0 0
-SCALEBAR AND INSET
-[False  True False False False False False False] [False  True False False False False False False]
-1 1
-SCALEBAR AND INSET
-[False False  True False False False False False] [False False  True False False False False False]
-2 2
-SCALEBAR AND INSET
-[False False False  True False False False False] [False False False  True False False False False]
-3 3
-SCALEBAR AND INSET
-[False False False False  True False False False] [False False False False  True False False False]
-4 4
-SCALEBAR AND INSET
-[False False False False False  True False False] [False False False False False  True False False]
-5 5
-SCALEBAR AND INSET
-[False False False False False False  True False] [False False False False False False  True False]
-6 6
-SCALEBAR AND INSET
-[False False False False False False False  True] [False False False False False False False  True]
-7 7
-SCALEBAR AND INSET
-[ True False False False False False False False] [ True False False False False False False False]
-0 0
-SCALEBAR AND INSET
-[False  True False False False False False False] [False  True False False False False False False]
-1 1
-SCALEBAR AND INSET
-[False False  True False False False False False] [False False  True False False False False False]
-2 2
-SCALEBAR AND INSET
-[False False False  True False False False False] [False False False  True False False False False]
-3 3
-SCALEBAR AND INSET
-[False False False False  True False False False] [False False False False  True False False False]
-4 4
-SCALEBAR AND INSET
-[False False False False False  True False False] [False False False False False  True False False]
-5 5
-SCALEBAR AND INSET
-[False False False False False False  True False] [False False False False False False  True False]
-6 6
-SCALEBAR AND INSET
-[False False False False False False False  True] [False False False False False False False  True]
-7 7
-SCALEBAR AND INSET

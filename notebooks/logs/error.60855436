@@ -1,1 +1,7 @@
 WARNING:rasterio._env:CPLE_AppDefined in The definition of geographic CRS EPSG:4326 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+/wendianHome/home/m10921061/harmonic-analysis/notebooks/SWOT_HA_Wendian.py:537: RuntimeWarning: All-NaN slice encountered
+  median = np.nanmedian(wse, axis=2)  # (y, x)
+/wendianHome/home/m10921061/harmonic-analysis/notebooks/SWOT_HA_Wendian.py:623: UserWarning: no explicit representation of timezones available for np.datetime64
+  times = np.array(ds_out.time.values, dtype="datetime64[ns]")
+/wendianHome/home/m10921061/harmonic-analysis/notebooks/SWOT_HA_Wendian.py:1029: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax = plt.subplots(subplot_kw={"projection": ps71_projection}, figsize=(15, 15))
